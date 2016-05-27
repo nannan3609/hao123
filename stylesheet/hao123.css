@@ -1,0 +1,709 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 10px;
+    background-color: rgb(252, 252, 252);
+}
+
+
+/*body背景和字体大小*/
+
+a {
+    text-decoration: none;
+}
+
+
+/*链接设置*/
+
+.logo {
+    width: 168px;
+    height: 60px;
+    float: left;
+}
+
+
+/*hao123的logo*/
+
+.setting {
+    display: block;
+    width: 25px;
+    float: left;
+    background-color: #43CD80;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+
+/*设置主页*/
+
+.weather {
+    float: left;
+    margin-left: 5px;
+    margin-top: 25px;
+    height: 27px;
+}
+
+
+/*天气设置*/
+
+.toplink {
+    font-family: 'Tahoma';
+    color: #999;
+    text-decoration: none;
+}
+
+#toplink {
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+}
+
+
+/*导航栏样式*/
+
+.login {
+    position: relative;
+    top: 5px;
+}
+
+
+/*登录样式*/
+
+.email {
+    position: relative;
+    top: 8px;
+}
+
+
+/*邮箱样式*/
+
+.browser {
+    position: relative;
+    top: 8px;
+}
+
+
+/*浏览器样式*/
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 0.5px solid aliceblue;
+    margin-top: 50px;
+}
+
+.search {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.baidu {
+    width: 120px;
+    height: 40px;
+}
+
+
+/*百度logo样式*/
+
+#search {
+    width: 540px;
+    height: 35px;
+    position: relative;
+    top: -16px;
+    left: -2%;
+    padding-left: 50px;
+    outline: none;
+}
+
+.gotosearch {
+    background: url("../haoimage/index.png");
+    width: 118px;
+    height: 34.5px;
+    position: relative;
+    left: -2.5%;
+    top: -2px;
+    box-sizing: content-box;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/*百度一下*/
+
+.web {
+    position: relative;
+    left: 3%;
+    top: -6px;
+    z-index: 1;
+}
+
+.link {
+    width: 95%;
+    height: 24px;
+    background-color: #43CD80;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*导航栏样式*/
+
+.inner {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.innerblock {
+    display: inline-block;
+    background-color: #43CD80;
+}
+
+.inner:hover {
+    background-color: #07ac72;
+}
+
+.left {
+    width: 278px;
+    height: 174px;
+    border: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*左链接表样式*/
+
+.atable:after {
+    content: " ";
+    display: inline-block;
+    height: 13px;
+    width: 0px;
+    border-left: 2px solid rgb(102, 109, 124);
+}
+
+.right {
+    float: right;
+    width: 100%;
+    position: relative;
+    left: 30%;
+    top: -185px;
+}
+
+
+/*右链接表样式*/
+
+table {
+    border: 1px solid #999;
+    font-size: 13px;
+}
+
+.pic {
+    position: relative;
+    top: 5px;
+}
+
+.alllink {
+    color: #2e363d;
+    position: relative;
+    top: -1px;
+}
+
+
+/*右链接样式*/
+
+.alllink:hover {
+    color: #f50;
+    text-decoration: underline;
+}
+
+.left {
+    margin-left: 2.5%;
+    margin-top: 10px;
+    float: left;
+}
+
+.lastlink {
+    color: #43CD80;
+}
+
+
+/*最后一行的链接*/
+
+.lastlink:hover {
+    text-decoration: underline;
+}
+
+.baiduicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 465px;
+}
+
+
+/*百度logo*/
+
+.sinaicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 385px;
+}
+
+
+/*新浪logo*/
+
+.sohuicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 344px;
+}
+
+
+/*搜狐logo*/
+
+.qqicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 625px;
+}
+
+
+/*腾讯logo*/
+
+.wangyiicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 505px;
+}
+
+
+/*网易logo*/
+
+.youkuicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 265px;
+}
+
+
+/*优酷logo*/
+
+.tmallicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 185px;
+}
+
+
+/*天猫logo*/
+
+.ifengicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 425px;
+}
+
+
+/*凤凰logo*/
+
+.taobaoicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 305px;
+}
+
+
+/*淘宝logo*/
+
+.gameicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/gamei.png");
+    background-position: -3px;
+}
+
+
+/*小游戏logo*/
+
+.g4399icon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 0;
+}
+
+
+/*4399游戏logo*/
+
+.xinhuaicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/xinhua.png");
+    background-position: -5px;
+}
+
+
+/*新华logo*/
+
+.jdicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/jd.png");
+    background-position: -4px 20px;
+}
+
+
+/*京东logo*/
+
+.jhsicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/jhs.png");
+    background-position: -5px 18px;
+}
+
+
+/*聚划算logo*/
+
+.jrtjicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/jrtj.png");
+    background-position: -6px 18px;
+}
+
+
+/*今日特价logo*/
+
+.hmovieicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 99%;
+}
+
+
+/*hao123影视logo*/
+
+.caricon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 143px;
+}
+
+
+/*汽车之家logo*/
+
+.moneyicon {
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background-image: url("../haoimage/icon.png");
+    background-position: 0 103px;
+}
+
+
+/*彩票开奖logo*/
+
+.ontop {
+    position: relative;
+    left: -5%;
+    top: 13px;
+    width: 70%;
+    border: 1px solid #43CD80;
+    border-bottom: none;
+}
+
+.ondip {
+    position: relative;
+    left: -5%;
+    top: 18px;
+    width: 70%;
+    margin-top: -118px;
+    border: 1px solid #43CD80;
+    border-top: none;
+}
+
+.intable {
+    width: 70%;
+    border: none;
+    border-top: 0.1px solid #999;
+    position: relative;
+    top: -79px;
+    left: -5%;
+}
+
+.linkset {
+    position: relative;
+    left: 32%;
+    top: 0px;
+    cursor: pointer;
+}
+
+
+/*链接设置样式*/
+
+.add {
+    position: relative;
+    left: 61%;
+    top: -24px;
+    cursor: pointer;
+}
+
+
+/*链接增加样式*/
+
+.onearrow {
+    position: relative;
+    left: 36%;
+    top: -49px;
+}
+
+.twoarrow {
+    position: relative;
+    left: 45%;
+    top: -65px;
+}
+
+
+/*箭头*/
+
+#green {
+    background: url("../haoimage/dot_green.png");
+    background-size: 12px 12px;
+    border: 0;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: -10px;
+    left: -1%;
+}
+
+
+/*绿主题样式*/
+
+#blue {
+    width: 12px;
+    height: 12px;
+    background: url("../haoimage/dot_blue.png");
+    background-size: 12px 12px;
+    border: 0;
+    position: relative;
+    top: -10px;
+    left: -1%;
+}
+
+
+/*蓝主题样式*/
+
+#pink {
+    background: url("../haoimage/dot_pink.png");
+    background-size: 12px 12px;
+    border: 0;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: -10px;
+    left: -1%;
+}
+
+
+/*粉主题样式*/
+
+#purple {
+    background: url("../haoimage/dot_purple.png");
+    background-size: 12px 12px;
+    border: 0;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: -10px;
+    left: -1%;
+}
+
+
+/*紫主题样式*/
+
+#red {
+    background: url("../haoimage/dot_red.png");
+    background-size: 12px 12px;
+    border: 0;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: -10px;
+    left: -1%;
+}
+
+
+/*红主题样式*/
+
+
+/*蓝色主题*/
+
+.blue .setting {
+    background-color: #00c8e3;
+}
+
+.blue .link {
+    background-color: #00c8e3;
+}
+
+.blue .innerblock {
+    display: inline-block;
+    background-color: #00c8e3;
+}
+
+.blue .inner:hover {
+    background-color: #1154d9;
+}
+
+.blue .ontop {
+    border: 1px solid #00c8e3;
+    border-bottom: none;
+}
+
+.blue .ondip {
+    border: 1px solid #00c8e3;
+    border-top: none;
+}
+
+.blue .lastlink {
+    color: #00c8e3;
+}
+
+
+/*粉红色主题*/
+
+.pink .setting {
+    background-color: #e300af;
+}
+
+.pink .link {
+    background-color: #e300af;
+}
+
+.pink .innerblock {
+    display: inline-block;
+    background-color: #e300af;
+}
+
+.pink .inner:hover {
+    background-color: #9b0478;
+}
+
+.pink .ontop {
+    border: 1px solid #e300af;
+    border-bottom: none;
+}
+
+.pink .ondip {
+    border: 1px solid #e300af;
+    border-top: none;
+}
+
+.pink .lastlink {
+    color: #e300af;
+}
+
+
+/*紫色主题*/
+
+.purple .setting {
+    background-color: #8900e3;
+}
+
+.purple .link {
+    background-color: #8900e3;
+}
+
+.purple .innerblock {
+    display: inline-block;
+    background-color: #8900e3;
+}
+
+.purple .inner:hover {
+    background-color: #4e077d;
+}
+
+.purple .ontop {
+    border: 1px solid #8900e3;
+    border-bottom: none;
+}
+
+.purple .ondip {
+    border: 1px solid #8900e3;
+    border-top: none;
+}
+
+.purple .lastlink {
+    color: #8900e3;
+}
+
+
+/*红色主题*/
+
+.red .setting {
+    background-color: #e30000;
+}
+
+.red .link {
+    background-color: #e30000;
+}
+
+.red .innerblock {
+    display: inline-block;
+    background-color: #e30000;
+}
+
+.red .inner:hover {
+    background-color: #8c0909;
+}
+
+.red .ontop {
+    border: 1px solid #e30000;
+    border-bottom: none;
+}
+
+.red .ondip {
+    border: 1px solid #e30000;
+    border-top: none;
+}
+
+.red .lastlink {
+    color: #e30000;
+}
